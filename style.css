@@ -12,3 +12,47 @@ body, html{
 .card-two {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
+
+#portfolio-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+.container{
+    max-width: 1024px;
+    margin: auto;
+    padding-top: 5%;
+}
+.portfolio-header{
+    overflow: auto;
+}
+.portfolio-image-wrapper, .portfolio-desc{
+    float: left;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.portfolio-image-wrapper{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.portfolio-desc{
+    width: 75%;
+}
+
+.desc-wrapper{
+    padding: .5%;
+    padding-left: 5%;
+    text-align: justify;
+    padding-right: 5%;
+}
+.desc-wrapper > label {
+    font-weight: bold;
+    width: 150px;
+}
+.profile-desc{
+    margin-top: 1.5%;
+}
