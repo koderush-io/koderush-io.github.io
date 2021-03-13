@@ -20,7 +20,9 @@ body, html{
 }
 
 .container{
-    max-width: 1024px;
+    max-width: 1248px;
+    height: 100%;
+    margin-bottom: 5%;
     margin: auto;
     padding-top: 5%;
 }
@@ -55,4 +57,48 @@ body, html{
 }
 .profile-desc{
     margin-top: 1.5%;
+}
+.projects-wrapper{
+    height: 100%;
+    width: 90%;
+    margin: 5%;
+    margin-top: 5%;
+}
+.center{
+    text-align: center;
+}
+.dark-header{
+    background-color: black;
+    color: white;
+}
+.header{
+    background-color: #ddd;
+}
+h1, h3, h2{
+    margin: 0px;
+}
+.project-card{
+    margin-top: 2.5%;
+    width: 44%;
+    padding: 1.5%;
+    margin: 1.5%;
+    float: left;
+    height: 350px;
+    overflow: auto;
+}
+.project-detail{
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    width: 100%;
+}
+.project-detail > label{
+    font-weight: bold;
+}
+.project-description{
+    padding-top: 5%;
+    margin-left: 2.5%;
+}
+.project-description > p {
+    text-align: justify;
+    text-indent: 50px;
 }
